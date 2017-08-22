@@ -21,8 +21,8 @@ def developerFullName = "Your Full Name"
 group = projectGroup
 version = "1.0"
 
-def sdkVersion = 25;
-def toolsVersion = "25.0.2";
+def sdkVersion = 26;
+def toolsVersion = "26.0.1";
 
 android {
     compileSdkVersion sdkVersion

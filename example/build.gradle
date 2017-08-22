@@ -3,14 +3,14 @@ apply plugin: 'com.github.ben-manes.versions'
 
 buildscript {
 
-    ext.supportLibVersion = "25.3.1"
+    ext.supportLibVersion = "26.0.1"
 
     repositories {
         jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.14.0'
 
@@ -27,6 +27,7 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
+        maven { url "https://maven.google.com" }
     }
 
     configurations.all {

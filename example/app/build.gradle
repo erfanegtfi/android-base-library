@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
-def targetSdk = 25
+def targetSdk = 26
 def supportTestVersion = "0.5"
 
 def conditionWatcherVersion = "0.1"
@@ -11,7 +11,7 @@ def espressoVersion = "2.2.2"
 
 android {
     compileSdkVersion targetSdk
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "26.0.1"
     defaultConfig {
         applicationId "net.gotev.baselibrarydemo"
         minSdkVersion 16
