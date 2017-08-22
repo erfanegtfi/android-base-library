@@ -6,7 +6,7 @@ Just fork this project, then clone it on your computer and open it in Android St
 # Initial setup
 After you've cloned your forked repo, you need to perform these actions:
 
-* Register on [bintray.com](bintray.com). It's free.
+* Register on [bintray.com](https://bintray.com). It's free.
 * Get you bintray API key and username
 * Inside your `local.properties` file put `bintray.apikey=YOUR_API_KEY` and `bintray.user=YOUR_BINTRAY_USERNAME`
 * Modify the [following lines](https://github.com/gotev/android-base-library/blob/master/library/build.gradle#L5-L22) in library/build.gradle file accordingly to your library
